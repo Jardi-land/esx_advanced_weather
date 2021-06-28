@@ -13,13 +13,13 @@ Nothing special
 Put resource esx_advanced_weather in your server.  
 Add this in your server.cfg:  
 ```ensure esx_advanced_weather```   
-If your getting errors, It's most likely that you have your start order wrong.  
+If your getting errors, It's most likely that you have your ensure order wrong.  
 
 **CONFIGURATION**  
 
 Go into config.lua and change what you want. (Only two languages for the moment)  
 !! Keep in mind that the biggest value for ```Config.TransitionMs``` must be smaller than the smallest value for ```Config.NewWeatherMs```.  
-If you want to use the command ```/weather 'WeatherName'``` ```Config.Lock``` must be set to false.  
+If you want to use the command ```/weather 'WeatherName'```, ```Config.Lock``` must be set to false.  
 
 **COMMANDS**  
 
