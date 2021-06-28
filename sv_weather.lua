@@ -1,3 +1,9 @@
+-- By Jardi-Land
+
+-- You can change whatever you want here but you have to publish it.
+-- You can not sell this script.
+-- If you want to use it on your public server please contact me on discord Jardiland#7666.
+
 local WeatherTable = {
     ["clear"] = {num = 1},
     ["extrasunny"] = {num = 2},

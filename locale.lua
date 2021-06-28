@@ -1,3 +1,5 @@
+-- Do not change anything here !!
+
 Locales = {}
 
 function _(str, ...)  -- Translate string
