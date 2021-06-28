@@ -21,7 +21,7 @@ Config.InitialWeatherType = { --The Weather when the script start
     {name = "BLIZZARD", hash = 0x27EA2814, use = false}
   }
 
-Config.WeatherType = { --Put use = flase if you want to deactivated a type of weather --DO NOT CHANGE THE ORDER !!!
+Config.WeatherType = { --Put use = false if you want to deactivated a type of weather --DO NOT CHANGE THE ORDER !!!
     {name = "CLEAR", hash = 0x36A83D84, use = true},
     {name = "EXTRASUNNY", hash = 0x97AA0A79, use = true},
     {name = "CLOUDS", hash = 0x30FDAF5C, use = true},
