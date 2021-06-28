@@ -20,6 +20,7 @@ If your getting errors, It's most likely that you have your ensure order wrong.
 Go into config.lua and change what you want. (Only two languages for the moment)  
 !! Keep in mind that the biggest value for ```Config.TransitionMs``` must be smaller than the smallest value for ```Config.NewWeatherMs```.  
 If you want to use the command ```/weather 'WeatherName'```, ```Config.Lock``` must be set to false.  
+If you want more information about how config.lua works go to the [wiki](https://github.com/Jardi-land/esx_advanced_weather/wiki).  
 
 **COMMANDS**  
 
