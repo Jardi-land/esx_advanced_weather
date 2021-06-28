@@ -1,5 +1,5 @@
 # esx_advanced_weather
-This is one of the most advanced weather script for FiveM servers. (work for non esx servers too.)  
+This is one of the most advanced weather script for FiveM servers. (work for non esx servers too.)\n
 You can customise literally everything !  
 Keep in mind this is a pre-release, the final version is still in development.  
 You can see the development progress [here](https://github.com/Jardi-land/esx_advanced_weather/projects/1).  
