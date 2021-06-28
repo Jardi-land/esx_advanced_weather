@@ -12,7 +12,7 @@ Nothing special
 
 Put resource esx_advanced_weather in your server.  
 Add this in your server.cfg:  
-```ensure esx_illegal_drugs```   
+```ensure esx_advanced_weather```   
 If your getting errors, It's most likely that you have your start order wrong.  
 
 **CONFIGURATION**  
