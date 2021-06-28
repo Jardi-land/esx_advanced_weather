@@ -1,5 +1,9 @@
-fx_version 'adamant'
+fx_version 'cerulean'
 game 'gta5'
+
+description 'esx_advanced_weather by Jardi-land'
+
+version 'pre-release1'
 
 client_scripts {
   'locale.lua',
