@@ -43,7 +43,7 @@ Citizen.CreateThread(function()
         CurrentWeatherName = Config.WeatherType[NewWeather].name
         CurrentWeatherHash = Config.WeatherType[NewWeather].hash
         WeatherTransition = Config.TransitionMs
-        print("New weather: "..Config.WeatherType[NewWeather].name.." | "..NewWeatherHash)
+        print("New weather: "..CurrentWeatherName.." | "..CurrentWeatherHash)
         TriggerClientEvent("NewWeatherCycle", -1, CurrentWeatherHash, CurrentWeatherName, WeatherTransition)
         InChange = true
         Wait(WeatherTransition)
@@ -55,7 +55,6 @@ end)
 RegisterCommand("weather", function(source, args, rawCommand)
     if args[1] == nil then
         print(_U("Invalid:usage"))
-        print(InChange)
         return
     elseif args[2] ~= nil then
         print(_U("Invalid:usage"))
