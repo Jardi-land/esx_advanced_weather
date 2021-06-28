@@ -29,19 +29,6 @@ AddEventHandler("NewWeatherCycle", function(NewWeatherHash, NewWeatherName, Weat
   until percent > 1.0
 end)
 
---RegisterNetEvent("NewWeatherCmd")
---AddEventHandler("NewWeatherCmd", function(NewWeatherHash, NewWeatherName, WeatherTransition)
---  print(NewWeatherName.." | "..NewWeatherHash)
---  sendNotificationDetail(NewWeatherName)
---  local percent = 0.025
---  repeat
---    percent = percent+0.025
---    print(percent)
---    SetWeatherTypeTransition(GetPrevWeatherTypeHashName(), NewWeatherHash, percent)
---    Wait(WeatherTransition/40)
---  until percent > 1.0
---end)
-
 RegisterNetEvent("WeatherOnJoin")
 AddEventHandler("WeatherOnJoin", function(CurrentWeatherName, CurrentWeatherHash)
   SetWeatherTypeNow(tostring(CurrentWeatherName))

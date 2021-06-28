@@ -40,13 +40,11 @@ Citizen.CreateThread(function()
             Wait(1)
             NewWeather = math.random(1,#Config.WeatherType)
         end
-        NewWeatherHash = Config.WeatherType[NewWeather].hash
-        NewWeatherName = Config.WeatherType[NewWeather].name
-        CurrentWeatherName = NewWeatherName
-        CurrentWeatherHash = NewWeatherHash
+        CurrentWeatherName = Config.WeatherType[NewWeather].name
+        CurrentWeatherHash = Config.WeatherType[NewWeather].hash
         WeatherTransition = Config.TransitionMs
         print("New weather: "..Config.WeatherType[NewWeather].name.." | "..NewWeatherHash)
-        TriggerClientEvent("NewWeatherCycle", -1, NewWeatherHash, NewWeatherName, WeatherTransition)
+        TriggerClientEvent("NewWeatherCycle", -1, CurrentWeatherHash, CurrentWeatherName, WeatherTransition)
         InChange = true
         Wait(WeatherTransition)
         InChange = false
