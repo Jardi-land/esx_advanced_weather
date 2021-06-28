@@ -2,7 +2,7 @@ Locales["fr"] = {
     --Notification subtitle weather
     ["subtitle:weather"] = "~g~La météo change",
     --Notification Component
-	["notification:CLEAR"] = "La météo est maintenant: Clair",
+    ["notification:CLEAR"] = "La météo est maintenant: Clair",
     ["notification:EXTRASUNNY"] = "La météo est maintenant: Super ensoleillé",
     ["notification:CLOUDS"] = "La météo est maintenant: Nuageux",
     ["notification:OVERCAST"] = "La météo est maintenant: Couvert",

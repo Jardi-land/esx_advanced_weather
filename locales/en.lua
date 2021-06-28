@@ -2,7 +2,7 @@ Locales["en"] = {
     --Notification subtitle weather
     ["subtitle:weather"] = "~g~The weather is changing",
     --Notification Component
-	["notification:CLEAR"] = "The weather is now: Clear",
+    ["notification:CLEAR"] = "The weather is now: Clear",
     ["notification:EXTRASUNNY"] = "The weather is now: Extrasunny",
     ["notification:CLOUDS"] = "The weather is now: Cloudy",
     ["notification:OVERCAST"] = "The weather is now: Overcast",
