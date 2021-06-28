@@ -10,7 +10,7 @@ client_scripts {
 }
 
 server_scripts {
-  'sv_weather',
+  'sv_weather.lua',
   'config.lua',
   'locale.lua',
   'locales/en.lua',
