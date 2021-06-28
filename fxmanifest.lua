@@ -2,17 +2,17 @@ fx_version 'adamant'
 game 'gta5'
 
 client_scripts {
-  'cl_weather.lua',
-  'config.lua',
   'locale.lua',
+  'config.lua',
   'locales/en.lua',
   'locales/fr.lua',
+  'cl_weather.lua',
 }
 
 server_scripts {
-  'sv_weather.lua',
-  'config.lua',
   'locale.lua',
+  'config.lua',
   'locales/en.lua',
   'locales/fr.lua',
+  'sv_weather.lua',
 }
