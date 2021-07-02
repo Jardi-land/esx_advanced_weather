@@ -11,7 +11,6 @@ end)
 
 
 local function sendNotificationDetail(WeatherName) --Notification
-  SetNotificationBackgroundColor(11)
   SetNotificationTextEntry("STRING")
   AddTextComponentString(_U("notification:"..WeatherName)) -- The weather name on the notification
   local txd = "CHAR_LS_TOURIST_BOARD" --https://wiki.rage.mp/index.php?title=Notification_Pictures -- If you know how to mod this pls contact me
